@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bluefade"
+    tools:context=".Forget_Activity">
+
+    <ImageView
+        android:id="@+id/imgForget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_password_24" />
+
+    <TextView
+        android:id="@+id/tvResetPass"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Reset password"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgForget"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvForgetMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="32dp"
+        android:text="E-mail"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvResetPass" />
+
+    <EditText
+        android:id="@+id/etForgetMail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:hint="type your email here"
+        android:inputType="text"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvForgetMail"
+        app:layout_constraintStart_toStartOf="@+id/tvForgetMail"
+        app:layout_constraintTop_toBottomOf="@+id/tvForgetMail" />
+
+    <TextView
+        android:id="@+id/tvForgetMiss"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="#CF3434"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvForgetMail"
+        app:layout_constraintStart_toStartOf="@+id/tvForgetMail"
+        app:layout_constraintTop_toBottomOf="@+id/etForgetMail" />
+
+    <Button
+        android:id="@+id/btnResetPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#3F51B5"
+        android:text="Reset password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvForgetMiss" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

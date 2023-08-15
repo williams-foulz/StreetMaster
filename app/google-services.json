@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "592139123854",
+    "project_id": "streetmasters-98208",
+    "storage_bucket": "streetmasters-98208.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592139123854:android:ca90e2b227048ae8f59ddf",
+        "android_client_info": {
+          "package_name": "com.example.streetmaster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592139123854-pjb9lm85fg37qsnq0r1ufonjh2rmg6da.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4kFIRrmuywiHPEP5DaEtzdJTnVdW51v4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592139123854-pjb9lm85fg37qsnq0r1ufonjh2rmg6da.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
